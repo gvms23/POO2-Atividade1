@@ -2,6 +2,10 @@
 
 Atividade 1 da disciplina de POO2 do curso de Ciência da Computação.
 
+![alt text](https://media.licdn.com/media/gcrc/dms/image/C4D12AQGUh7wheWNxXA/article-cover_image-shrink_720_1280/0?e=2120151600&v=alpha&t=HKyWe4v9gIYoKsDT32LCkE2VRYRznuu3J7ZDk3F4_zw)
+
+Publicação no Linkedin: https://www.linkedin.com/pulse/poo2-atividade-1-gabriel-vicente
+
 1-a) Dado o nome de uma disciplina, o total de aulas dadas até o momento e as faltas do aluno,
 calcular a frequência do aluno. Posterior ao calculo envie uma mensagem informando se o aluno
 esta abaixo da frequência esperada (inferior a 75%) ou não.
