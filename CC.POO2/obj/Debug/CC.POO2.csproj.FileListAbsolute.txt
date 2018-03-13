@@ -1,0 +1,16 @@
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\bin\Debug\CC.POO2.exe.config
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\bin\Debug\CC.POO2.exe
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\bin\Debug\CC.POO2.pdb
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.csprojResolveAssemblyReference.cache
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.CtrDisciplina.resources
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.CtrTabuada.resources
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.CtrInicial.resources
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.CtrVagaTI.resources
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.CtrAlunosDGV.resources
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.CtrEstoqueDGV.resources
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.FrmPrincipal.resources
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.Properties.Resources.resources
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.csproj.GenerateResource.Cache
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.csproj.CoreCompileInputs.cache
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.exe
+C:\Users\GV\OneDrive\1.PESSOAL\5.FACULDADE\POO2\CC.POO2\CC.POO2\obj\Debug\CC.POO2.pdb

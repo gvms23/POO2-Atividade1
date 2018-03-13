@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{381F47C6-F335-49A4-A4AA-7332AA8BD6D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CC.POO2</RootNamespace>
+    <AssemblyName>CC.POO2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icone_gv.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aDisciplinas\Aluno.cs" />
+    <Compile Include="aDisciplinas\AlunoDisciplina.cs" />
+    <Compile Include="aDisciplinas\CtrDisciplinas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="aDisciplinas\CtrDisciplinas.Designer.cs">
+      <DependentUpon>CtrDisciplinas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aDisciplinas\Disciplina.cs" />
+    <Compile Include="bTabuada\CtrTabuada.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="bTabuada\CtrTabuada.Designer.cs">
+      <DependentUpon>CtrTabuada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrInicial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrInicial.Designer.cs">
+      <DependentUpon>CtrInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cVagaTI\CtrVagaTI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cVagaTI\CtrVagaTI.Designer.cs">
+      <DependentUpon>CtrVagaTI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dAlunosDGV\Aluno.cs" />
+    <Compile Include="dAlunosDGV\CtrAlunosDGV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dAlunosDGV\CtrAlunosDGV.Designer.cs">
+      <DependentUpon>CtrAlunosDGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eEstoqueDGV\CtrEstoqueDGV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="eEstoqueDGV\CtrEstoqueDGV.Designer.cs">
+      <DependentUpon>CtrEstoqueDGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eEstoqueDGV\EnumTipoOperacao.cs" />
+    <Compile Include="eEstoqueDGV\DGVItem.cs" />
+    <Compile Include="eEstoqueDGV\Estoque.cs" />
+    <Compile Include="eEstoqueDGV\Cliente.cs" />
+    <Compile Include="eEstoqueDGV\Produto.cs" />
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="aDisciplinas\CtrDisciplinas.resx">
+      <DependentUpon>CtrDisciplinas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bTabuada\CtrTabuada.resx">
+      <DependentUpon>CtrTabuada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrInicial.resx">
+      <DependentUpon>CtrInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cVagaTI\CtrVagaTI.resx">
+      <DependentUpon>CtrVagaTI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dAlunosDGV\CtrAlunosDGV.resx">
+      <DependentUpon>CtrAlunosDGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eEstoqueDGV\CtrEstoqueDGV.resx">
+      <DependentUpon>CtrEstoqueDGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascote_gv.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="icone_gv.ico" />
+    <None Include="Resources\programador.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
